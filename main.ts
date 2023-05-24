@@ -17,7 +17,7 @@ radio.onReceivedNumber(function (receivedNumber) {
             . . . . .
             `)
         car_motor(255 - 143, 255 - 60)
-    } else if (2) {
+    } else if (receivedNumber == 2) {
         basic.showLeds(`
             . . # . .
             . # # # .
@@ -26,7 +26,7 @@ radio.onReceivedNumber(function (receivedNumber) {
             . . # . .
             `)
         car_motor(255-143, 255)
-    } else if (3) {
+    } else if (receivedNumber == 3) {
         basic.showLeds(`
             . . # . .
             . . # . .
